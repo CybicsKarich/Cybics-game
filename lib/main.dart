@@ -587,7 +587,7 @@ class _MainGameContainerState extends State<MainGameContainer> with SingleTicker
             child: Text(
               mainTitleText,
               style: TextStyle(
-                fontSize: 64, fontWeight: FontWeight.black,
+                fontSize: 64, fontWeight: FontWeight.w900,
                 color: isGodMode ? const Color(0xFFE11D48) : const Color(0xFF00F2FE),
                 shadows: [Shadow(color: isGodMode ? const Color(0xFFF43F5E) : const Color(0xFF00F2FE).withOpacity(0.6), blurRadius: 20)],
               ),
@@ -689,7 +689,7 @@ class _MainGameContainerState extends State<MainGameContainer> with SingleTicker
             child: Text(
               isGodMode ? 'БЕССМЕРТИЕ' : 'Попытка $currentRunAttempts',
               style: TextStyle(
-                fontSize: 32, fontWeight: FontWeight.black,
+                fontSize: 32, fontWeight: FontWeight.w900,
                 color: isGodMode ? const Color(0xFFE11D48) : Colors.white,
                 shadows: [
                   Shadow(
@@ -781,7 +781,7 @@ class _MainGameContainerState extends State<MainGameContainer> with SingleTicker
           Text(
             'Новый рекорд!',
             style: TextStyle(
-              fontSize: 54, fontWeight: FontWeight.black, color: const Color(0xFFE11D48),
+              fontSize: 54, fontWeight: FontWeight.w900, color: const Color(0xFFE11D48),
               letterSpacing: 4,
               shadows: [Shadow(color: const Color(0xFFE11D48).withOpacity(0.6), blurRadius: 20)],
             ),
@@ -804,7 +804,7 @@ class _MainGameContainerState extends State<MainGameContainer> with SingleTicker
           Text(
             'Уровень пройден!',
             style: TextStyle(
-              fontSize: 54, fontWeight: FontWeight.black, color: const Color(0xFF22C55E),
+              fontSize: 54, fontWeight: FontWeight.w900, color: const Color(0xFF22C55E),
               letterSpacing: 4,
               shadows: [Shadow(color: const Color(0xFF22C55E).withOpacity(0.8), blurRadius: 30)],
             ),
